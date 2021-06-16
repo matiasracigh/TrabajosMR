@@ -104,8 +104,12 @@ class Lista(object):
     def barrido(self):
         for elemento in self.__elementos:
             print(elemento)
+
+    def barrido_Descendente(self):
+        for dato in self.__elementos[::-1]:
+            print(dato)
     
-    def barrido_jedi(self):
+    def barrido_personajes(self):
         for elemento in self.__elementos:
             print(elemento['name'])
 
